@@ -35,4 +35,20 @@ func main() {
 		println("p is", p)
 	}
 	// go does not have ternary operator and while loops
+
+	// switch statements
+
+	a := 5
+	switch a {
+	case 1:
+		fmt.Println("a is 1")
+	case 2:
+		fmt.Println("a is 2")
+	case 3:
+		fmt.Println("a is 3")
+	case 4:
+		fmt.Println("a is 4")
+	default:
+		fmt.Println("It is ", a)
+	}
 }
