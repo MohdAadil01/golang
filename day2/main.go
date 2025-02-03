@@ -25,4 +25,18 @@ func main() {
 			j = mid - 1
 		}
 	}
+
+	// !SLICES
+	var a = make([]int, 1, 4)
+	fmt.Println(a)
+	nums := []int{1, 2, 3}
+	fmt.Println(nums)
+	var b = []int{2, 3, 4, 5, 56, 6}
+	fmt.Println(b)
+
+	for n := range 4 {
+		b = append(b, n)
+	}
+	fmt.Println(b)
+
 }
