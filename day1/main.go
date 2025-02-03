@@ -19,7 +19,20 @@ func main() {
 	// 	fmt.Println(i)
 	// }
 
-	for i := range 3 {
-		fmt.Println(i)
+	// for i := range 3 {
+	// 	fmt.Println(i)
+	// }
+
+	var age int = 18
+
+	if age >= 18 {
+		fmt.Println("Adult")
+	} else {
+		fmt.Println("Under 18.")
 	}
+
+	if p := 12; p == 12 {
+		println("p is", p)
+	}
+	// go does not have ternary operator and while loops
 }
