@@ -1,0 +1,37 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.o
+*.a
+
+# Go modules and dependencies
+/bin/
+/pkg/
+/vendor/
+
+# Build artifacts
+*.test
+*.prof
+*.pb.go
+*.sum
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Logs and temp files
+*.log
+*.tmp
+*.cache
+*.DS_Store
+
+# Ignoring compiled Go files inside day1, day2, etc.
+day*/bin/
+day*/pkg/
+day*/*.out
+day*/*.o
+day*/*.a
