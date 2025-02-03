@@ -39,4 +39,11 @@ func main() {
 	}
 	fmt.Println(b)
 
+	mpp := make(map[string]int)
+
+	mp := map[string]int{"bcd": 2}
+
+	mpp["abc"] = 1
+	fmt.Println(mpp)
+	fmt.Println(mp["bcd"])
 }
